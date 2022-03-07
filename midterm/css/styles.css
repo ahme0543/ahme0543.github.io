@@ -50,6 +50,7 @@ html {
     display : block;
     position : relative;
     }
+    /* sets up float*/
     section div img {
     width : 200px;
     height : 200px;
