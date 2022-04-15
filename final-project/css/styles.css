@@ -5,12 +5,22 @@
     
 }
 
+hr {
+  color: #c78c06;
+}
+
 html {
     margin-left : 15%;
     /* background-color:black */
     margin-right: 20%;
     
 }
+input[type="text"] {
+  width : 100%;
+  }
+  textarea[id="Message"] {
+  width : 100%;
+  }
 
 .div .img {
     max-width: 1200px;
@@ -137,13 +147,13 @@ p {
     background-color: black;
     color: #f1f1f1;
     width: 20%;
-    font-size: larger;
-    padding: 10px 30px;
+    font-size: large;
+    padding: 20px 30px;
     border: none;
     cursor: pointer;
     border-radius: 1px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
 
   }
 
@@ -260,7 +270,7 @@ p {
     color: #f1f1f1;
     width: 20%;
     font-size: x-large;
-    padding: 10px 30px;
+    padding: 25px 30px;
     border: none;
     cursor: pointer;
     border-radius: 1px;
@@ -342,16 +352,114 @@ p {
 
 .our-vision .btn-6 {
     position: absolute;
-    bottom: -700%; 
+    bottom: -702%; 
     background-color: black;
     width: 20%;
     font-size: larger;
-    padding: 12px 24px;
+    padding: 25px 30px;
     border: none;
     cursor: pointer;
     border-radius: 1px;
     color: #f1f1f1;
     background: rgb(0, 0, 0); /* Fallback color */ 
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity 
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    box-shadow: #ffe6ac;
+    border: #ffe6ac;
+    
+    
 }
 
+.our-vision .fa-solid {
+    position: absolute;
+    bottom: -698%; 
+    color:#f1f1f1;
+    padding-left: 15%;
+  }
+
+  .our-team .content-7 {
+    position: absolute;
+    bottom: -730%;
+    font-size: xx-large;
+  }
+
+  .our-team img{
+    width: 100%;
+    height: 500px;
+    /* padding-top: 10px; */ 
+    position: relative;
+    bottom: -685px;
+  }
+
+  .our-team .content-8 {
+    position: absolute;
+    bottom: -820%;
+    background-color: #ffe6ac;
+    margin-right: 20%;
+    padding-top: 2px;
+    padding-bottom: 13px;
+}
+ 
+.our-team p {
+  padding-top: 8px;
+}
+
+.our-team-2 img{
+  width: 100%;
+    height: 500px;
+    /* padding-top: 10px; */ 
+    position: relative;
+    bottom: -820px;
+}
+
+.our-team-2 .content-9 {
+  position: absolute;
+  bottom: -910%;
+  background-color: #ffe6ac;
+  margin-right: 20%;
+  padding-top: 2px;
+  padding-bottom: 13px;
+}
+
+.box {
+  position: absolute;
+  bottom: -955%;
+  margin-right: 20%;
+  padding-top: 2px;
+  padding-bottom: 13px;
+} 
+
+
+h1 {
+  font-size: xx-large;
+}
+
+.box .btn-7 {
+  background-color: black;
+  color: #c78c06;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: large;
+  
+}
+
+.table {
+  position: absolute;
+  bottom: -975%;
+}
+
+.maps {
+  position: absolute;
+  bottom: -1060%;
+}
+
+.footer {
+  position: absolute;
+  bottom: -1070%;
+  background-color: black;
+  color: #c78c06;
+  padding-top: 15px;
+  padding-right: 355px;
+  font-size: medium;
+}
