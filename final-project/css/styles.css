@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    margin-left : 15%;
+    /* background-color:black */
+    margin-right: 15%;
+    
+}
+
+.div .img {
+    width: fit-content;
+    background-color: goldenrod;
+}
+
+.header .div {
+    background-color: goldenrod;
+}
+
+nav {
+    list-style: none;
+    display: inline-block;
+    font-size: larger;
+    text-align: center;
+    text-decoration-color: black; 
+    padding-left: 50%;
+    text-decoration-line: none;
+   }
+
+nav li {
+   list-style: none;
+   text-decoration: none;
+   text-decoration-color: black;
+   text-decoration-line: none;
+}
+
+.topnav {
+      
+}
+
+.introduction {
+   border-image: 1px;
+   position: relative;
+}
+
+.wrapper .content {
+  position: absolute; /* Position the background text */
+  bottom: 40%; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; 
+  font-size: 35px;
+  
+}
+
+.wrapper .btn {
+    position: absolute;
+    bottom: 38%; 
+    background-color: goldenrod;
+    width: 20%;
+    font-size: larger;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px;
+    
+    
+}
+.wrapper .fa-solid {
+    position: absolute;
+    bottom: 39.5%; 
+    padding-left: 18%;
+}
+
+.about-us {
+    background-color: rgb(224, 185, 136);
+}
+
+.about-us .img {
+    max-width: auto;
+}
+
+
+
