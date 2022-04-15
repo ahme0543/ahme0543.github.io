@@ -1,18 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 1200px;
     
 }
 
 html {
     margin-left : 15%;
     /* background-color:black */
-    margin-right: 15%;
+    margin-right: 20%;
     
 }
 
 .div .img {
-    width: fit-content;
+    max-width: 1200px;
     background-color: goldenrod;
 }
 
@@ -46,6 +47,8 @@ nav li {
    position: relative;
 }
 
+
+
 .wrapper .content {
   position: absolute; /* Position the background text */
   bottom: 40%; /* At the bottom. Use top:0 to append it to the top */
@@ -78,12 +81,78 @@ nav li {
 }
 
 .about-us {
-    background-color: rgb(224, 185, 136);
+    background-color: #ffe6ac;
+    padding-bottom: 20px;
+    
 }
 
-.about-us .img {
+.about-us img {
     max-width: auto;
+    width: fit-content;
+    padding-left: 30px;
+    padding-top: 10px;
 }
 
+h2{
+    font-size: xx-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    
+}
 
+p {
+    font-size: large;
+    padding-left: 10px;
+    
+}
+
+.our-services {
+    font-size: xx-large;
+    
+}
+
+.our-services img {
+    width: 100%;
+    height: 500px;
+    /* padding-top: 10px; */ 
+    background-color: #ffe6ac;
+    padding-bottom: 280px;
+    position: relative;
+
+}
+
+h2 {
+   
+}
+
+.our-services .content-1 {
+  position: absolute; /* Position the background text */
+  bottom: -260%; /* At the bottom. Use top:0 to append it to the top */
+  text-align: left;
+  margin-right: 20%;
+  }
+    
+  .our-services .btn-1 {
+    position: absolute;
+    bottom: -270%;
+    background-color: black;
+    color: #f1f1f1;
+    width: 20%;
+    font-size: larger;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+
+  .our-services .fa-solid {
+    position: absolute;
+    bottom: -268%; 
+    color: #f1f1f1;
+    padding-left: 18%;
+  }
 
