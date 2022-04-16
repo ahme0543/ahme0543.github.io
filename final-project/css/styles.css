@@ -11,24 +11,36 @@ hr {
 
 html {
     margin-left : 15%;
-    /* background-color:black */
+    
     margin-right: 20%;
     
 }
 input[type="text"] {
   width : 100%;
+  
   }
   textarea[id="Message"] {
   width : 100%;
   }
 
-.div .img {
+.div img {
     max-width: 1200px;
-    background-color: goldenrod;
+    background-color: black;
 }
 
-.header .div {
-    background-color: goldenrod;
+.logo {
+  background-color: black;
+}
+
+.header {
+  background-color: black;
+  padding-right: 100%;
+}
+
+a {
+  color: #c78c06;
+  text-decoration: none;
+  font: larger;
 }
 
 nav {
@@ -39,18 +51,35 @@ nav {
     text-decoration-color: black; 
     padding-left: 50%;
     text-decoration-line: none;
-   }
+    color: #c78c06;
+    background-color: black;
+    padding-right: 42.5%;
+   } 
 
 nav li {
    list-style: none;
    text-decoration: none;
    text-decoration-color: black;
    text-decoration-line: none;
+   color: #c78c06;
+   padding-bottom: 30px; 
 }
 
 .topnav {
-      
+      background-color: black;
+      height: 30%;
+      padding-bottom: 20px;
+    
 }
+.topnav .fa-solid {
+  color: #c78c06;
+  border: #c78c06;
+  position: absolute;
+  top: 387px;
+  
+  
+}
+
 
 .introduction {
    border-image: 1px;
@@ -73,7 +102,7 @@ nav li {
 
 .wrapper .btn {
     position: absolute;
-    bottom: 38%; 
+    bottom: 30%; 
     background-color: goldenrod;
     width: 20%;
     font-size: larger;
@@ -86,7 +115,7 @@ nav li {
 }
 .wrapper .fa-solid {
     position: absolute;
-    bottom: 39.5%; 
+    bottom: 31.5%; 
     padding-left: 18%;
 }
 
@@ -120,6 +149,8 @@ p {
 .our-services {
     font-size: xx-large;
     
+    padding-top: 20px;
+    
 }
 
 .our-services img {
@@ -136,14 +167,14 @@ p {
 
 .our-services .content-1 {
   position: absolute; /* Position the background text */
-  bottom: -260%; /* At the bottom. Use top:0 to append it to the top */
+  bottom: -280%; /* At the bottom. Use top:0 to append it to the top */
   text-align: left;
   margin-right: 20%;
   }
     
   .our-services .btn-1 {
     position: absolute;
-    bottom: -270%;
+    bottom: -290%;
     background-color: black;
     color: #f1f1f1;
     width: 20%;
@@ -159,9 +190,9 @@ p {
 
   .our-services .fa-solid {
     position: absolute;
-    bottom: -268%; 
+    bottom: -288%; 
     color: #f1f1f1;
-    padding-left: 18%;
+    padding-left: 15%;
   }
 
 .marketing img {
