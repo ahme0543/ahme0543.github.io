@@ -11,10 +11,17 @@ hr {
 
 html {
     margin-left : 15%;
-    
+    max-width: 1200px;
     margin-right: 20%;
-    
+
 }
+
+
+@media only screen and (min-width: 760px) {
+  body {
+    background-color: lightblue;
+  }
+
 input[type="text"] {
   width : 100%;
   
@@ -53,7 +60,7 @@ nav {
     text-decoration-line: none;
     color: #c78c06;
     background-color: black;
-    padding-right: 42.5%;
+    padding-right: 43%;
    } 
 
 nav li {
@@ -81,28 +88,28 @@ nav li {
 }
 
 
-.introduction {
-   border-image: 1px;
-   position: relative;
+.introduction img {
+   width: 100%;
 }
 
 
 
 .wrapper .content {
-  position: absolute; /* Position the background text */
-  bottom: 40%; /* At the bottom. Use top:0 to append it to the top */
+  
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 20px; 
-  font-size: 35px;
+  position: absolute; /* Position the background text */
+  bottom: 10%; /* At the bottom. Use top:0 to append it to the top */
+  text-align: left;
+  margin-right: 20%;
+  
   
 }
 
 .wrapper .btn {
     position: absolute;
-    bottom: 30%; 
+    bottom: 0%; 
     background-color: goldenrod;
     width: 20%;
     font-size: larger;
@@ -115,8 +122,8 @@ nav li {
 }
 .wrapper .fa-solid {
     position: absolute;
-    bottom: 31.5%; 
-    padding-left: 18%;
+    bottom: 2%; 
+    padding-left: 15%;
 }
 
 .about-us {
@@ -158,7 +165,7 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     background-color: #ffe6ac;
-    padding-bottom: 280px;
+    padding-bottom: 250px;
     position: relative;
 
 }
@@ -167,14 +174,15 @@ p {
 
 .our-services .content-1 {
   position: absolute; /* Position the background text */
-  bottom: -280%; /* At the bottom. Use top:0 to append it to the top */
+  bottom: -255%; /* At the bottom. Use top:0 to append it to the top */
   text-align: left;
   margin-right: 20%;
+  
   }
     
   .our-services .btn-1 {
     position: absolute;
-    bottom: -290%;
+    bottom: -265%;
     background-color: black;
     color: #f1f1f1;
     width: 20%;
@@ -190,7 +198,7 @@ p {
 
   .our-services .fa-solid {
     position: absolute;
-    bottom: -288%; 
+    bottom: -263%; 
     color: #f1f1f1;
     padding-left: 15%;
   }
@@ -239,7 +247,7 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -100px;
+    bottom: -140px;
   }
     
 
@@ -281,7 +289,7 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -250px;
+    bottom: -285px;
   }
 
   .web-development .content-4 {
@@ -322,17 +330,20 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -430px;
+    bottom: -480px;
   }
 
   .print .content-5 {
+    
+
     position: absolute; /* Position the background text */
-    bottom: -660%; /* At the bottom. Use top:0 to append it to the top */
+    bottom: -660.5%; /* At the bottom. Use top:0 to append it to the top */
     background-color: #ffe6ac;
     text-align: left;
     margin-right: 20%;
     padding-top: 2px;
     padding-bottom: 120px;
+}
 }
 
 .print .btn-5 {
@@ -353,7 +364,7 @@ p {
 
   .print .fa-solid {
     position: absolute;
-    bottom: -651.5%; 
+    bottom: -652%; 
     color:#f1f1f1;
     padding-left: 15%;
   }
@@ -363,12 +374,12 @@ p {
     height: 400px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -620px;
+    bottom: -700px;
   }
 
   .our-vision .content-6 {
     position: absolute; /* Position the background text */
-    bottom: -690%; /* At the bottom. Use top:0 to append it to the top */
+    bottom: -695%; /* At the bottom. Use top:0 to append it to the top */
    /*  background: rgb(0, 0, 0); /* Fallback color */ 
    /*  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
@@ -383,7 +394,7 @@ p {
 
 .our-vision .btn-6 {
     position: absolute;
-    bottom: -702%; 
+    bottom: -710%; 
     background-color: black;
     width: 20%;
     font-size: larger;
@@ -402,14 +413,14 @@ p {
 
 .our-vision .fa-solid {
     position: absolute;
-    bottom: -698%; 
+    bottom: -706.5%; 
     color:#f1f1f1;
-    padding-left: 15%;
+    padding-left: 14%;
   }
 
   .our-team .content-7 {
     position: absolute;
-    bottom: -730%;
+    bottom: -768%;
     font-size: xx-large;
   }
 
@@ -418,12 +429,12 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -685px;
+    bottom: -770px;
   }
 
   .our-team .content-8 {
     position: absolute;
-    bottom: -820%;
+    bottom: -860%;
     background-color: #ffe6ac;
     margin-right: 20%;
     padding-top: 2px;
@@ -439,12 +450,12 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -820px;
+    bottom: -920px;
 }
 
 .our-team-2 .content-9 {
   position: absolute;
-  bottom: -910%;
+  bottom: -950%;
   background-color: #ffe6ac;
   margin-right: 20%;
   padding-top: 2px;
@@ -453,7 +464,7 @@ p {
 
 .box {
   position: absolute;
-  bottom: -955%;
+  bottom: -995%;
   margin-right: 20%;
   padding-top: 2px;
   padding-bottom: 13px;
@@ -477,20 +488,38 @@ h1 {
 
 .table {
   position: absolute;
-  bottom: -975%;
+  bottom: -1020%;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+table, th, td {
+  border: 0.5px solid;
+  width: 80%;
+  }
+
+
+th {
+  background-color: #ffe6ac;
+  height: 70px;
 }
 
 .maps {
   position: absolute;
-  bottom: -1060%;
+  bottom: -1100%;
 }
 
 .footer {
   position: absolute;
-  bottom: -1070%;
+  bottom: -1110%;
   background-color: black;
   color: #c78c06;
   padding-top: 15px;
   padding-right: 355px;
   font-size: medium;
 }
+
+
