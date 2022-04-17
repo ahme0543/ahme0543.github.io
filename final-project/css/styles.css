@@ -5,6 +5,8 @@
     
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Montserrat:wght@100&display=swap');
+
 hr {
   color: #c78c06;
 }
@@ -16,11 +18,6 @@ html {
 
 }
 
-
-@media only screen and (min-width: 760px) {
-  body {
-    background-color: lightblue;
-  }
 
 input[type="text"] {
   width : 100%;
@@ -37,6 +34,7 @@ input[type="text"] {
 
 .logo {
   background-color: black;
+  
 }
 
 .header {
@@ -44,15 +42,19 @@ input[type="text"] {
   padding-right: 100%;
 }
 
+
+
 a {
   color: #c78c06;
   text-decoration: none;
   font: larger;
 }
 
+
+
 nav {
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */ 
     font-size: larger;
     text-align: center;
     text-decoration-color: black; 
@@ -134,8 +136,8 @@ nav li {
 
 .about-us img {
     max-width: auto;
-    width: fit-content;
-    padding-left: 30px;
+    width: 95%;
+    padding-left: 5px;
     padding-top: 10px;
 }
 
@@ -153,6 +155,11 @@ p {
     
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .our-services {
     font-size: xx-large;
     
@@ -162,7 +169,7 @@ p {
 
 .our-services img {
     width: 100%;
-    height: 500px;
+    height: 300px;
     /* padding-top: 10px; */ 
     background-color: #ffe6ac;
     padding-bottom: 250px;
@@ -174,7 +181,7 @@ p {
 
 .our-services .content-1 {
   position: absolute; /* Position the background text */
-  bottom: -255%; /* At the bottom. Use top:0 to append it to the top */
+  bottom: -155%; /* At the bottom. Use top:0 to append it to the top */
   text-align: left;
   margin-right: 20%;
   
@@ -182,37 +189,37 @@ p {
     
   .our-services .btn-1 {
     position: absolute;
-    bottom: -265%;
+    bottom: -165%;
     background-color: black;
     color: #f1f1f1;
-    width: 20%;
+    width: 40%;
     font-size: large;
-    padding: 20px 30px;
+    /* padding: 20px 30px; */ 
     border: none;
     cursor: pointer;
     border-radius: 1px;
-    /* padding-top: 5px;
-    padding-bottom: 5px; */
+    padding-top: 20px;
+    padding-bottom: 20px; 
 
   }
 
   .our-services .fa-solid {
     position: absolute;
-    bottom: -263%; 
+    bottom: -163%; 
     color: #f1f1f1;
-    padding-left: 15%;
+    padding-left: 30%;
   }
 
 .marketing img {
     width: 100%;
-    height: 500px;
+    height: 300px;
     /* padding-top: 10px; */ 
     position: relative;
 }
 
 .marketing .content-2 {
     position: absolute; /* Position the background text */
-    bottom: -365%; /* At the bottom. Use top:0 to append it to the top */
+    bottom: -245%; /* At the bottom. Use top:0 to append it to the top */
     background-color: #ffe6ac;
     text-align: left;
     margin-right: 20%;
@@ -221,12 +228,12 @@ p {
 }
 .marketing .btn-2 {
     position: absolute;
-    bottom: -362%;
+    bottom: -243%;
     background-color: black;
     color: #f1f1f1;
-    width: 20%;
+    width: 40%;
     font-size: x-large;
-    padding: 10px 30px;
+    /* padding: 10px 20px; */
     border: none;
     cursor: pointer;
     border-radius: 1px;
@@ -237,23 +244,23 @@ p {
 
 .marketing .fa-solid {
     position: absolute;
-    bottom: -358.5%; 
+    bottom: -240%; 
     color:#f1f1f1;
-    padding-left: 17%;
+    padding-left: 35%;
   }
 
   .video-production img{
     width: 100%;
-    height: 500px;
+    height: 300px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -140px;
+    bottom: -265px;
   }
     
 
 .video-production .content-3 {
     position: absolute; /* Position the background text */
-    bottom: -460%; /* At the bottom. Use top:0 to append it to the top */
+    bottom: -330%; /* At the bottom. Use top:0 to append it to the top */
     background-color: #ffe6ac;
     text-align: left;
     margin-right: 20%;
@@ -263,10 +270,10 @@ p {
 
 .video-production .btn-3 {
     position: absolute;
-    bottom: -458%;
+    bottom: -330%;
     background-color: black;
     color: #f1f1f1;
-    width: 20%;
+    width: 40%;
     font-size: x-large;
     padding: 10px 30px;
     border: none;
@@ -279,9 +286,9 @@ p {
 
   .video-production .fa-solid {
     position: absolute;
-    bottom: -454.5%; 
+    bottom: -326.5%; 
     color:#f1f1f1;
-    padding-left: 15%;
+    padding-left: 30%;
   }
 
   .web-development img{
@@ -289,12 +296,12 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -285px;
+    bottom: -520px;
   }
 
   .web-development .content-4 {
     position: absolute; /* Position the background text */
-    bottom: -560%; /* At the bottom. Use top:0 to append it to the top */
+    bottom: -435%; /* At the bottom. Use top:0 to append it to the top */
     background-color: #ffe6ac;
     text-align: left;
     margin-right: 20%;
@@ -304,10 +311,10 @@ p {
 
 .web-development .btn-4 {
     position: absolute;
-    bottom: -555%;
+    bottom: -430%;
     background-color: black;
     color: #f1f1f1;
-    width: 20%;
+    width: 40%;
     font-size: x-large;
     padding: 25px 30px;
     border: none;
@@ -320,9 +327,9 @@ p {
 
   .web-development .fa-solid {
     position: absolute;
-    bottom: -551.5%; 
+    bottom: -426.5%; 
     color:#f1f1f1;
-    padding-left: 15%;
+    padding-left: 30%;
   }
 
   .print img{
@@ -330,7 +337,7 @@ p {
     height: 500px;
     /* padding-top: 10px; */ 
     position: relative;
-    bottom: -480px;
+    bottom: -780px;
   }
 
   .print .content-5 {
@@ -344,7 +351,7 @@ p {
     padding-top: 2px;
     padding-bottom: 120px;
 }
-}
+
 
 .print .btn-5 {
     position: absolute;
@@ -522,4 +529,108 @@ th {
   font-size: medium;
 }
 
+/* starts desktop mockup */ 
 
+@media screen and (min-width: 760px) {
+    body {
+      background-color: aquamarine;
+      
+      
+    }
+
+
+    nav {
+      display: flex;
+      flex-direction: row; 
+      
+      justify-content: space-evenly; 
+     
+    } 
+
+    nav li {
+      padding-left: 50px;
+    }
+    
+    .menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: none;
+      justify-content: space-evenly;
+    }
+
+    .about-us img {
+      float: left;
+      width: 500px;
+      height: 300px;
+      padding-left: 25px;
+    }
+    
+    .about-us {
+      padding-bottom: 60px;
+    }
+
+    h2 {
+      text-align: left;
+      padding-left: 60%;
+    }
+
+    p{ 
+      text-align: left;
+      padding-left: 58%;
+    }
+    
+   
+    .our-services {
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+    
+
+  /* .flex-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+      
+  } */
+  
+
+    .our-services, .marketing, .btn-1, .btn-2, .content-1, .content-2{
+      flex-basis: 50%;
+}
+
+    .video-production, .web-development, .print {
+      flex-basis: calc(33%);
+}
+    .our-vision img {
+      width: 100%;
+  }
+    .our-vision .content-6 {
+      position: absolute; /* Position the background text */
+    bottom: -445%; /* At the bottom. Use top:0 to append it to the top */
+   /*  background: rgb(0, 0, 0); /* Fallback color */ 
+   /*  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    
+    
+    }
+
+  }
+
+
+  
+  
+  
+  
+
+  
+    
+    
+    
+  
+
+
+    
+    
+  
