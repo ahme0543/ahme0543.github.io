@@ -1,3 +1,4 @@
+/* reset code */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin : 0;
   padding : 0;
@@ -26,7 +27,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border-collapse : collapse;
   border-spacing : 0;
   }
-
+  /* google fonts link import */
   @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Montserrat:wght@100&display=swap');
 
 
@@ -45,6 +46,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   max-width : 1200px;
   margin-right : 20%;
   }
+
+  /* topnav bar */
   input[type="text"] {
   width : 100%;
   }
@@ -62,6 +65,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color : black;
   padding-right : 100%;
   }
+
+  /* nav bar */
   a {
   color : #c78c06;
   text-decoration : none;
@@ -104,6 +109,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position : absolute;
   top : 387px;
   }
+
+  /*  informations on the website with image, background and content and buttons in different sections 
+  content=information (different numbers of content used to target it specifically) 
+  btn=button (different numbers of btn used to target it specifically)
+  fa-solid=button icon */
+
   .introduction img {
   width : 100%;
   }
@@ -402,6 +413,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-top : 2px;
   padding-bottom : 13px;
   }
+
+  /* forms section */
   .box {
   position : absolute;
   bottom : -855%;
@@ -421,6 +434,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-bottom : 10px;
   font-size : large;
   }
+
+  /* table section */
+
   .table {
   position : absolute;
   bottom : -905%;
@@ -438,11 +454,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color : #ffe6ac;
   height : 50px;
   }
+
+  /* google maps */
   .maps {
   position : absolute;
   bottom : -985%;
   width : 100%;
   }
+
+  /* copyright and footer section */
   .footer {
   position : absolute;
   bottom : -1000%;
@@ -452,10 +472,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-right : 355px;
   font-size : medium;
   }
+
+  /* Desktop version */
+
   @media screen and (min-width: 760px) {
-  body {
-  background-color : aquamarine;
-  }
+  
   nav {
   display : flex;
   flex-direction : row;
@@ -464,11 +485,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   nav li {
   padding-left : 50px;
   }
+
+  /* had to add different li class (menu) to make the nav bar horizontal */ 
   .menu {
   display : flex;
   flex-direction : row;
   justify-content : space-evenly;
   }
+  
   .about-us img {
   float : left;
   width : 500px;
