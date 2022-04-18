@@ -648,7 +648,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
    .video-production {
         position : relative; 
         background-color: #ffe6ac; 
-        padding-bottom: -200%; 
+        padding-bottom: 500px;
         
         width: 1200%;
         }
@@ -663,11 +663,51 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         /* padding-right : 50%; */ 
         
         }
+
+        .video-production .content-3 {
+          position : absolute;
+          bottom : 40%;
+          background-color : #ffe6ac;
+          text-align : left;
+          margin-right : 60%;
+          padding-top : 2px;
+          padding-bottom : 100px;
+          
+          }
+
+        .video-production p {
+          position: absolute;
+          bottom: -120%;
+          
+        }
+
+        .video-production .btn-3 {
+          position : absolute;
+          bottom : 0%;
+          background-color : black;
+          color : #f1f1f1;
+          width : 80%;
+          font-size : large;
+          padding : 10px 30px;
+          border : none;
+          cursor : pointer;
+          border-radius : 1px;
+          padding-top : 20px;
+          padding-bottom : 20px;
+          }
+          .video-production .fa-solid {
+          position : absolute;
+          bottom : 2%;
+          color : #f1f1f1;
+          padding-left : 70%;
+          }
    
+  
+      
         .web-development {
           position : relative; 
           background-color: #ffe6ac; 
-          padding-bottom: -200%; 
+          padding-bottom: -400%; 
           margin-left : 05%; 
           width: 1200%;
           margin-left: 20px;
@@ -684,6 +724,44 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
           height: 300px;
           
           }
+
+          .web-development .content-4 {
+            position : absolute;
+            bottom : 42%;
+            background-color : #ffe6ac;
+            text-align : left;
+            margin-right : 70%;
+            padding-top : 2px;
+            padding-bottom : 100px;
+            
+            }
+  
+          .web-development p {
+            position: absolute;
+            bottom: -35%;
+            
+          }
+
+          .web-development .btn-4 {
+            position : absolute;
+            bottom : 20%;
+            background-color : black;
+            color : #f1f1f1;
+            width : 70%;
+            font-size : large;
+            padding : 25px 30px;
+            border : none;
+            cursor : pointer;
+            border-radius : 1px;
+            padding-top : 20px;
+            padding-bottom : 20px;
+            }
+            .web-development .fa-solid {
+            position : absolute;
+            bottom : 22%;
+            color : #f1f1f1;
+            padding-left : 60%;
+            }
 
           .print {
             position : relative; 
@@ -704,6 +782,46 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
             height: 300px;
             
             }
+            .print .content-5 {
+              position : absolute;
+              bottom : 25%;
+              background-color : #ffe6ac;
+              text-align : left;
+              margin-left : 20%;
+              padding-top : 2px;
+              padding-bottom : 120px;
+              }
+
+            .print  p {
+            position: absolute;
+            bottom: 10%;
+            margin-left: 45%;
+            
+          } 
+           .print h2 {
+             position: absolute;
+             bottom: 230%;
+           }
+              .print .btn-5 {
+              position : absolute;
+              bottom : 10%;
+              background-color : black;
+              color : #f1f1f1;
+              width : 80%;
+              font-size : large;
+              padding : 10px 30px;
+              border : none;
+              cursor : pointer;
+              border-radius : 1px;
+              padding-top : 20px;
+              padding-bottom : 20px;
+              }
+              .print .fa-solid {
+              position : absolute;
+              bottom : 12%;
+              color : #f1f1f1;
+              padding-left : 65%;
+              }
        
      
   
