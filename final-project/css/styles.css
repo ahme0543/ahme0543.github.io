@@ -124,13 +124,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background : rgb(0, 0, 0, 0.5);
   color : #f1f1f1;
   position : absolute;
-  bottom : 10%;
+  bottom : 30%;
   text-align : left;
   margin-right : 20%;
   }
   .wrapper .btn {
   position : absolute;
-  bottom : 0%;
+  bottom : 20%;
   background-color : goldenrod;
   width : 20%;
   font-size : larger;
@@ -141,7 +141,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .wrapper .fa-solid {
   position : absolute;
-  bottom : 2%;
+  bottom : 22%;
   padding-left : 15%;
   }
   .about-us {
@@ -163,6 +163,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size : large;
   padding-left : 10px;
   }
+
+  /* Starting to use flex for the secvices section. used flex so that it was easy to add columns and rows with width */ 
+  
   .flex-container {
   display : flex;
   flex-direction : column;
@@ -180,13 +183,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-services .content-1 {
   position : absolute;
-  bottom : -155%;
+  bottom : -100%;
   text-align : left;
   margin-right : 20%;
   }
   .our-services .btn-1 {
   position : absolute;
-  bottom : -165%;
+  bottom : -110%;
   background-color : black;
   color : #f1f1f1;
   width : 40%;
@@ -199,7 +202,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-services .fa-solid {
   position : absolute;
-  bottom : -163%;
+  bottom : -109%;
   color : #f1f1f1;
   padding-left : 30%;
   }
@@ -210,7 +213,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .marketing .content-2 {
   position : absolute;
-  bottom : -245%;
+  bottom : -175%;
   background-color : #ffe6ac;
   text-align : left;
   margin-right : 20%;
@@ -219,7 +222,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .marketing .btn-2 {
   position : absolute;
-  bottom : -243%;
+  bottom : -175%;
   background-color : black;
   color : #f1f1f1;
   width : 40%;
@@ -232,7 +235,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .marketing .fa-solid {
   position : absolute;
-  bottom : -240%;
+  bottom : -173%;
   color : #f1f1f1;
   padding-left : 35%;
   }
@@ -244,7 +247,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .video-production .content-3 {
   position : absolute;
-  bottom : -330%;
+  bottom : -240%;
   background-color : #ffe6ac;
   text-align : left;
   margin-right : 20%;
@@ -253,7 +256,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .video-production .btn-3 {
   position : absolute;
-  bottom : -330%;
+  bottom : -240%;
   background-color : black;
   color : #f1f1f1;
   width : 40%;
@@ -267,7 +270,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .video-production .fa-solid {
   position : absolute;
-  bottom : -326.5%;
+  bottom : -237.5%;
   color : #f1f1f1;
   padding-left : 30%;
   }
@@ -279,7 +282,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .web-development .content-4 {
   position : absolute;
-  bottom : -435%;
+  bottom : -325%;
   background-color : #ffe6ac;
   text-align : left;
   margin-right : 20%;
@@ -288,7 +291,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .web-development .btn-4 {
   position : absolute;
-  bottom : -430%;
+  bottom : -323%;
   background-color : black;
   color : #f1f1f1;
   width : 40%;
@@ -302,7 +305,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .web-development .fa-solid {
   position : absolute;
-  bottom : -426.5%;
+  bottom : -320.5%;
   color : #f1f1f1;
   padding-left : 30%;
   }
@@ -314,7 +317,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .print .content-5 {
   position : absolute;
-  bottom : -535.5%;
+  bottom : -408%;
   background-color : #ffe6ac;
   text-align : left;
   margin-right : 20%;
@@ -323,7 +326,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .print .btn-5 {
   position : absolute;
-  bottom : -530%;
+  bottom : -405%;
   background-color : black;
   color : #f1f1f1;
   width : 40%;
@@ -337,7 +340,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .print .fa-solid {
   position : absolute;
-  bottom : -526.5%;
+  bottom : -402.5%;
   color : #f1f1f1;
   padding-left : 30%;
   }
@@ -349,7 +352,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-vision .content-6 {
   position : absolute;
-  bottom : -575%;
+  bottom : -440%;
   color : #f1f1f1;
   width : 100%;
   }
@@ -359,7 +362,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-vision .btn-6 {
   position : absolute;
-  bottom : -592%;
+  bottom : -450%;
   background-color : black;
   width : 40%;
   font-size : larger;
@@ -374,13 +377,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-vision .fa-solid {
   position : absolute;
-  bottom : -588%;
+  bottom : -447%;
   color : #f1f1f1;
   padding-left : 30%;
   }
   .our-team .content-7 {
   position : absolute;
-  bottom : -605%;
+  bottom : -465%;
   font-size : xx-large;
   }
   .our-team img {
@@ -389,32 +392,38 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   position : relative;
   bottom : -995px;
   }
-  .our-team .content-8 {
-  position : absolute;
-  bottom : -750%;
-  background-color : #ffe6ac;
-  margin-right : 20%;
-  padding-top : 2px;
-  padding-bottom : 13px;
-  }
+
+.our-team .content-8 {
+    position: absolute;
+    bottom: -500%;
+    background-color: #ffe6ac;
+    margin-right: 20%;
+    padding-top: 2px;
+    padding-bottom: 13px;
+
+}
+
+ 
+
   .our-team p {
   padding-top : 8px;
   }
   .our-team-2 img {
   width : 100%;
   height : 500px;
-  position : relative;
-  bottom : 0;
+  position : absolute;
+  bottom : 170px;
+ 
   }
   .our-team-2 .content-9 {
   position : absolute;
-  bottom : -800%;
+  bottom : -610%;
   background-color : #ffe6ac;
   margin-right : 20%;
   padding-top : 2px;
   padding-bottom : 13px;
   }
-
+ 
   .wrapper-2 {
     margin: 10px;
   }
@@ -422,7 +431,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   /* forms section */
   .box {
   position : absolute;
-  bottom : -855%;
+  bottom : -5600px;
   margin-right : 20%;
   padding-top : 2px;
   padding-bottom : 13px;
@@ -444,7 +453,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
   .table {
   position : absolute;
-  bottom : -905%;
+  bottom : -690%;
   }
   table {
   table-layout : auto;
@@ -463,20 +472,22 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   /* google maps */
   .maps {
   position : absolute;
-  bottom : -985%;
+  bottom : -755%;
   width : 100%;
   }
 
   /* copyright and footer section */
   .footer {
   position : absolute;
-  bottom : -1000%;
+  bottom : -770%;
   background-color : black;
   color : #c78c06;
   padding-top : 15px;
   padding-right : 355px;
   font-size : medium;
   }
+
+
 
   /* Desktop version */
 
@@ -507,7 +518,33 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-left : 50px;
   }
 
-  
+  .wrapper .content {
+    background : rgb(0, 0, 0);
+    background : rgb(0, 0, 0, 0.5);
+    color : #f1f1f1;
+    position : absolute;
+    bottom : 90%;
+    text-align : left;
+    /* margin-right : 20%; */
+    }
+
+  .wrapper .btn {
+    position : absolute;
+    bottom : 85%;
+    background-color : goldenrod;
+    width : 40%;
+    font-size : larger;
+    padding : 12px 24px;
+    border : none;
+    cursor : pointer;
+    border-radius : 1px;
+    }
+
+  .wrapper .fa-solid {
+    position : absolute;
+    bottom : 85.3%;
+    padding-left : 30%;
+    }
   
 
 
@@ -530,10 +567,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   h2 {
   text-align : left; 
   padding-left : 60%; 
+}
   
-
-  }
-  
+/* Starting to use flex for the secvices section. used flex so that it was easy to add columns and rows with width. did it seperately with more sections because of the position absolute. */ 
 
   .flex-container {
   display : flex;
@@ -613,218 +649,219 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     bottom : 34%;
     text-align : left;
     padding-bottom : 100px;
-    }
+  }
 
   .marketing p { 
-      text-align: left;
-      position: absolute;
-      bottom: -120%;
-      padding-left: 30px;
+    text-align: left;
+    position: absolute;
+    bottom: -120%;
+    padding-left: 30px;
       
+  }
+
+ .marketing .btn-2 {
+    position : absolute;
+    bottom : 5%;
+    background-color : black;
+    color : #f1f1f1;
+    width : 60%;
+    font-size : x-large;
+    border : none;
+    cursor : pointer;
+    border-radius : 1px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    margin-left: 140px;
     }
 
-    .marketing .btn-2 {
-      position : absolute;
-      bottom : 5%;
-      background-color : black;
-      color : #f1f1f1;
-      width : 60%;
-      font-size : x-large;
-      border : none;
-      cursor : pointer;
-      border-radius : 1px;
-      padding-top : 20px;
-      padding-bottom : 20px;
-      margin-left: 140px;
-      }
-
-      .marketing .fa-solid {
-      position : absolute;
-      bottom: 8%;
-      color : #f1f1f1;
-      padding-left : 95%;
-      }
+  .marketing .fa-solid {
+    position : absolute;
+    bottom: 8%;
+    color : #f1f1f1;
+    padding-left : 95%;
+    }
 
    .video-production {
-        position : relative; 
-        background-color: #ffe6ac; 
-        padding-bottom: 500px;
-        
-        width: 1200%;
-        }
+      position : relative; 
+      background-color: #ffe6ac; 
+      padding-bottom: 500px;
+      width: 1200%;
+      }
 
-    .video-production img{
+  .video-production img{
          
-        position : absolute;
-        bottom: 25%;
-        /* background-color: #ffe6ac */
-        padding-bottom: 45%;
-        background-color: none;
-        /* padding-right : 50%; */ 
+    position : absolute;
+    bottom: 25%;
+    /* background-color: #ffe6ac */
+    padding-bottom: 45%;
+    background-color: none;
+    /* padding-right : 50%; */ 
         
-        }
+    }
 
-        .video-production .content-3 {
-          position : absolute;
-          bottom : 40%;
-          background-color : #ffe6ac;
-          text-align : left;
-          margin-right : 60%;
-          padding-top : 2px;
-          padding-bottom : 100px;
+  .video-production .content-3 {
+    position : absolute;
+    bottom : 40%;
+    background-color : #ffe6ac;
+    text-align : left;
+    margin-right : 60%;
+    padding-top : 2px;
+    padding-bottom : 100px;
           
-          }
+  }
 
-        .video-production p {
-          position: absolute;
-          bottom: -120%;
+  .video-production p {
+    position: absolute;
+    bottom: -120%;
           
-        }
+  }
 
-        .video-production .btn-3 {
-          position : absolute;
-          bottom : 0%;
-          background-color : black;
-          color : #f1f1f1;
-          width : 80%;
-          font-size : large;
-          padding : 10px 30px;
-          border : none;
-          cursor : pointer;
-          border-radius : 1px;
-          padding-top : 20px;
-          padding-bottom : 20px;
-          }
-          .video-production .fa-solid {
-          position : absolute;
-          bottom : 2%;
-          color : #f1f1f1;
-          padding-left : 70%;
-          }
+  .video-production .btn-3 {
+    position : absolute;
+    bottom : 0%;
+    background-color : black;
+    color : #f1f1f1;
+    width : 80%;
+    font-size : large;
+    padding : 10px 30px;
+    border : none;
+    cursor : pointer;
+    border-radius : 1px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+  }
+
+  .video-production .fa-solid {
+    position : absolute;
+    bottom : 2%;
+    color : #f1f1f1;
+    padding-left : 70%;
+  }
    
   
       
-        .web-development {
-          position : relative; 
-          background-color: #ffe6ac; 
-          padding-bottom: -400%; 
-          margin-left : 05%; 
-          width: 1200%;
-          margin-left: 20px;
-          }
+  .web-development {
+    position : relative; 
+    background-color: #ffe6ac; 
+    padding-bottom: -400%; 
+    margin-left : 05%; 
+    width: 1200%;
+    margin-left: 20px;
+  }
   
-      .web-development img{
-           
-          position : absolute;
-          bottom: 5%;
-          /* background-color: #ffe6ac */
-          padding-bottom: 45%;
-          background-color: none;
-          /* padding-right : 50%; */ 
-          height: 300px;
+  .web-development img{
+    position : absolute;
+    bottom: 5%;
+    /* background-color: #ffe6ac */
+    padding-bottom: 45%;
+    background-color: none;
+    /* padding-right : 50%; */ 
+    height: 300px;
           
-          }
+  }
 
-          .web-development .content-4 {
-            position : absolute;
-            bottom : 42%;
-            background-color : #ffe6ac;
-            text-align : left;
-            margin-right : 70%;
-            padding-top : 2px;
-            padding-bottom : 100px;
+  .web-development .content-4 {
+    position : absolute;
+    bottom : 42%;
+    background-color : #ffe6ac;
+    text-align : left;
+    margin-right : 70%;
+    padding-top : 2px;
+    padding-bottom : 100px;
             
-            }
+  }
   
-          .web-development p {
-            position: absolute;
-            bottom: -35%;
+  .web-development p {
+    position: absolute;
+    bottom: -35%;
             
-          }
+  }
 
-          .web-development .btn-4 {
-            position : absolute;
-            bottom : 20%;
-            background-color : black;
-            color : #f1f1f1;
-            width : 70%;
-            font-size : large;
-            padding : 25px 30px;
-            border : none;
-            cursor : pointer;
-            border-radius : 1px;
-            padding-top : 20px;
-            padding-bottom : 20px;
-            }
-            .web-development .fa-solid {
-            position : absolute;
-            bottom : 22%;
-            color : #f1f1f1;
-            padding-left : 60%;
-            }
+  .web-development .btn-4 {
+    position : absolute;
+    bottom : 20%;
+    background-color : black;
+    color : #f1f1f1;
+    width : 70%;
+    font-size : large;
+    padding : 25px 30px;
+    border : none;
+    cursor : pointer;
+    border-radius : 1px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+  }
 
-          .print {
-            position : relative; 
-            background-color: #ffe6ac; 
-            padding-bottom: -200%; 
-            margin-left : 20px; 
-            width: 1200%;
-            }
+  .web-development .fa-solid {
+    position : absolute;
+    bottom : 22%;
+    color : #f1f1f1;
+    padding-left : 60%;
+  }
+
+  .print {
+    position : relative; 
+    background-color: #ffe6ac; 
+    padding-bottom: -200%; 
+     margin-left : 20px; 
+   width: 1200%;
+}
     
-        .print img{
+  .print img{
              
-            position : absolute;
-            bottom: 0%;
-            /* background-color: #ffe6ac */
-            padding-bottom: 45%;
-            background-color: none;
-            /* padding-right : 50%; */ 
-            height: 300px;
+    position : absolute;
+    bottom: 0%;
+    /* background-color: #ffe6ac */
+     padding-bottom: 45%;
+    background-color: none;
+     /* padding-right : 50%; */ 
+    height: 300px;
             
-            }
-            .print .content-5 {
-              position : absolute;
-              bottom : 25%;
-              background-color : #ffe6ac;
-              text-align : left;
-              margin-left : 20%;
-              padding-top : 2px;
-              padding-bottom : 120px;
-              }
+    }
+  .print .content-5 {
+    position : absolute;
+    bottom : 25%;
+    background-color : #ffe6ac;
+    text-align : left;
+    margin-left : 20%;
+    padding-top : 2px;
+    padding-bottom : 120px;
+  }
 
-            .print  p {
-            position: absolute;
-            bottom: 10%;
-            margin-left: 45%;
+  .print  p {
+    position: absolute;
+    bottom: 10%;
+    margin-left: 45%;
             
-          } 
-           .print h2 {
-             position: absolute;
-             bottom: 230%;
-           }
-              .print .btn-5 {
-              position : absolute;
-              bottom : 10%;
-              background-color : black;
-              color : #f1f1f1;
-              width : 80%;
-              font-size : large;
-              padding : 10px 30px;
-              border : none;
-              cursor : pointer;
-              border-radius : 1px;
-              padding-top : 20px;
-              padding-bottom : 20px;
-              }
-              .print .fa-solid {
-              position : absolute;
-              bottom : 12%;
-              color : #f1f1f1;
-              padding-left : 65%;
-              }
+  } 
+  .print h2 {
+    position: absolute;
+    bottom: 230%;
+  }
+  .print .btn-5 {
+    position : absolute;
+    bottom : 10%;
+    background-color : black;
+    color : #f1f1f1;
+    width : 80%;
+    font-size : large;
+    padding : 10px 30px;
+    border : none;
+    cursor : pointer;
+    border-radius : 1px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+  }
+
+  .print .fa-solid {
+    position : absolute;
+    bottom : 12%;
+    color : #f1f1f1;
+    padding-left : 65%;
+  }
        
      
-  
+  /* adding flex to set up the base structure with width-50% and 33.3% for the bottom 3 */
 
   .wrapper-3, .our-services img, .marketing img, .content-1, .content-2 {
     display: flex;
@@ -842,9 +879,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     justify-content: space-evenly;
     position: relative;
     bottom: -05px;
-
-
-  }
+}
   
   
     
