@@ -493,7 +493,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       font-family: 'Cormorant', serif;
       font-family: 'Montserrat', sans-serif;
   }
-  
+  div content{ 
+    position: absolute;
+    bottom: -150%;
+
+  } ;
   nav {
   display : flex;
   flex-direction : row;
@@ -502,6 +506,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   nav li {
   padding-left : 50px;
   }
+
+  
+  
+
 
   /* had to add different li class (menu) to make the nav bar horizontal */ 
   .menu {
@@ -532,7 +540,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   flex-wrap : wrap;
   flex-direction : row;
   }
-  
+
   .our-services {
   /* display : flex;
   flex-basis : 50%;
@@ -637,7 +645,67 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
       padding-left : 95%;
       }
 
+   .video-production {
+        position : relative; 
+        background-color: #ffe6ac; 
+        padding-bottom: -200%; 
+        
+        width: 1200%;
+        }
+
+    .video-production img{
+         
+        position : absolute;
+        bottom: 25%;
+        /* background-color: #ffe6ac */
+        padding-bottom: 45%;
+        background-color: none;
+        /* padding-right : 50%; */ 
+        
+        }
    
+        .web-development {
+          position : relative; 
+          background-color: #ffe6ac; 
+          padding-bottom: -200%; 
+          margin-left : 05%; 
+          width: 1200%;
+          margin-left: 20px;
+          }
+  
+      .web-development img{
+           
+          position : absolute;
+          bottom: 5%;
+          /* background-color: #ffe6ac */
+          padding-bottom: 45%;
+          background-color: none;
+          /* padding-right : 50%; */ 
+          height: 300px;
+          
+          }
+
+          .print {
+            position : relative; 
+            background-color: #ffe6ac; 
+            padding-bottom: -200%; 
+            margin-left : 20px; 
+            width: 1200%;
+            }
+    
+        .print img{
+             
+            position : absolute;
+            bottom: 0%;
+            /* background-color: #ffe6ac */
+            padding-bottom: 45%;
+            background-color: none;
+            /* padding-right : 50%; */ 
+            height: 300px;
+            
+            }
+       
+     
   
 
   .wrapper-3, .our-services img, .marketing img, .content-1, .content-2 {
@@ -649,11 +717,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     /* width: 50% */
   }
 
-  .wrapper-4, .web-development img, .video-production img, .print, .content-3, .content-4, .content-5{
+  .wrapper-4, .web-development img, .video-production img, .print img, .content-3, .content-4, .content-5{
     display: flex;
     flex-direction: row;
-    flex-basis: 33.3%;
+    /* flex-basis: 33.3%; */
     justify-content: space-evenly;
+    position: relative;
+    bottom: -05px;
+
+
   }
   
   
