@@ -1,690 +1,530 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin : 0;
+  padding : 0;
+  border : 0;
+  font-size : 100%;
+  font : inherit;
+  vertical-align : baseline;
+  }
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display : block;
+  }
+  body {
+  line-height : 1;
+  }
+  ol, ul {
+  list-style : none;
+  }
+  blockquote, q {
+  quotes : none;
+  }
+  blockquote:before, blockquote:after, q:before, q:after {
+  content : '';
+  content : none;
+  }
+  table {
+  border-collapse : collapse;
+  border-spacing : 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Montserrat:wght@100&display=swap');
 
 
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    max-width: 1200px;
-    
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Montserrat:wght@100&display=swap');
-
-hr {
-  color: #c78c06;
-}
-
-html {
-    margin-left : 15%;
-    max-width: 1200px;
-    margin-right: 20%;
-
-}
-
-
-input[type="text"] {
+  * {
+  margin : 0;
+  padding : 0;
+  max-width : 1200px;
+  font-family: 'Cormorant', serif;
+  font-family: 'Montserrat', sans-serif;
+  }
+  hr {
+  color : #c78c06;
+  }
+  html {
+  margin-left : 15%;
+  max-width : 1200px;
+  margin-right : 20%;
+  }
+  input[type="text"] {
   width : 100%;
-  
   }
   textarea[id="Message"] {
   width : 100%;
   }
-
-.div img {
-    max-width: 1200px;
-    background-color: black;
-}
-
-.logo {
-  background-color: black;
-  
-}
-
-.header {
-  background-color: black;
-  padding-right: 100%;
-}
-
-
-
-a {
-  color: #c78c06;
-  text-decoration: none;
-  font: larger;
-}
-
-.wrapper-0 {
-  background-color: #c78c06;
-  border: black;
-  border-top: 2px;
-  border-radius: 10px;
-  cursor: pointer;
-
-
-}
-
-
-nav {
-    list-style: none;
-    /* display: inline-block; */ 
-    font-size: larger;
-    text-align: center;
-    text-decoration-color: black; 
-    padding-left: 50%;
-    text-decoration-line: none;
-    background-color: #c78c06;
-    background-color: black; 
-    padding-right: 43%;
-   } 
-
-nav li {
-   list-style: none;
-   text-decoration: none;
-   text-decoration-color: black;
-   text-decoration-line: none;
-   color: #c78c06;
-   padding-bottom: 30px; 
-}
-
-.topnav {
-      background-color: black;
-      height: 30%;
-      padding-bottom: 20px;
-    
-}
-.topnav .fa-solid {
-  color: #c78c06;
-  border: #c78c06;
-  position: absolute;
-  top: 387px;
-  
-  
-}
-
-
-.introduction img {
-   width: 100%;
-}
-
-
-
-.wrapper .content {
-  
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  position: absolute; /* Position the background text */
-  bottom: 10%; /* At the bottom. Use top:0 to append it to the top */
-  text-align: left;
-  margin-right: 20%;
-  
-  
-}
-
-.wrapper .btn {
-    position: absolute;
-    bottom: 0%; 
-    background-color: goldenrod;
-    width: 20%;
-    font-size: larger;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 1px;
-    
-    
-}
-.wrapper .fa-solid {
-    position: absolute;
-    bottom: 2%; 
-    padding-left: 15%;
-}
-
-.about-us {
-    background-color: #ffe6ac;
-    padding-bottom: 20px;
-    
-}
-
-.about-us img {
-    max-width: auto;
-    width: 95%;
-    padding-left: 5px;
-    padding-top: 10px;
-}
-
-h2{
-    font-size: xx-large;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 10px;
-    
-}
-
-p {
-    font-size: large;
-    padding-left: 10px;
-    
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.our-services {
-    font-size: xx-large;
-    
-    padding-top: 20px;
-    
-}
-
-.our-services img {
-    width: 100%;
-    height: 300px;
-    /* padding-top: 10px; */ 
-    background-color: #ffe6ac;
-    padding-bottom: 250px;
-    position: relative;
-
-}
-
-
-
-.our-services .content-1 {
-  position: absolute; /* Position the background text */
-  bottom: -155%; /* At the bottom. Use top:0 to append it to the top */
-  text-align: left;
-  margin-right: 20%;
-  
+  .div img {
+  max-width : 1200px;
+  background-color : black;
   }
-    
+  .logo {
+  background-color : black;
+  }
+  .header {
+  background-color : black;
+  padding-right : 100%;
+  }
+  a {
+  color : #c78c06;
+  text-decoration : none;
+  font : larger;
+  }
+  .wrapper-0 {
+  background-color : #c78c06;
+  border : black;
+  border-top : 2px;
+  border-radius : 10px;
+  cursor : pointer;
+  }
+  nav {
+  list-style : none;
+  font-size : larger;
+  text-align : center;
+  text-decoration-color : black;
+  padding-left : 50%;
+  text-decoration-line : none;
+  background-color : #c78c06;
+  background-color : black;
+  padding-right : 43%;
+  }
+  nav li {
+  list-style : none;
+  text-decoration : none;
+  text-decoration-color : black;
+  text-decoration-line : none;
+  color : #c78c06;
+  padding-bottom : 30px;
+  }
+  .topnav {
+  background-color : black;
+  height : 30%;
+  padding-bottom : 20px;
+  }
+  .topnav .fa-solid {
+  color : #c78c06;
+  border : #c78c06;
+  position : absolute;
+  top : 387px;
+  }
+  .introduction img {
+  width : 100%;
+  }
+  .wrapper .content {
+  background : rgb(0, 0, 0);
+  background : rgb(0, 0, 0, 0.5);
+  color : #f1f1f1;
+  position : absolute;
+  bottom : 10%;
+  text-align : left;
+  margin-right : 20%;
+  }
+  .wrapper .btn {
+  position : absolute;
+  bottom : 0%;
+  background-color : goldenrod;
+  width : 20%;
+  font-size : larger;
+  padding : 12px 24px;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  }
+  .wrapper .fa-solid {
+  position : absolute;
+  bottom : 2%;
+  padding-left : 15%;
+  }
+  .about-us {
+  background-color : #ffe6ac;
+  padding-bottom : 20px;
+  }
+  .about-us img {
+  width : 95%;
+  padding-left : 5px;
+  padding-top : 10px;
+  }
+  h2 {
+  font-size : xx-large;
+  padding-top : 15px;
+  padding-bottom : 15px;
+  padding-left : 10px;
+  }
+  p {
+  font-size : large;
+  padding-left : 10px;
+  }
+  .flex-container {
+  display : flex;
+  flex-direction : column;
+  }
+  .our-services {
+  font-size : xx-large;
+  padding-top : 20px;
+  }
+  .our-services img {
+  width : 100%;
+  height : 300px;
+  background-color : #ffe6ac;
+  padding-bottom : 250px;
+  position : relative;
+  }
+  .our-services .content-1 {
+  position : absolute;
+  bottom : -155%;
+  text-align : left;
+  margin-right : 20%;
+  }
   .our-services .btn-1 {
-    position: absolute;
-    bottom: -165%;
-    background-color: black;
-    color: #f1f1f1;
-    width: 40%;
-    font-size: large;
-    /* padding: 20px 30px; */ 
-    border: none;
-    cursor: pointer;
-    border-radius: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px; 
-
+  position : absolute;
+  bottom : -165%;
+  background-color : black;
+  color : #f1f1f1;
+  width : 40%;
+  font-size : large;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  padding-top : 20px;
+  padding-bottom : 20px;
   }
-
   .our-services .fa-solid {
-    position: absolute;
-    bottom: -163%; 
-    color: #f1f1f1;
-    padding-left: 30%;
+  position : absolute;
+  bottom : -163%;
+  color : #f1f1f1;
+  padding-left : 30%;
   }
-
-.marketing img {
-    width: 100%;
-    height: 300px;
-    /* padding-top: 10px; */ 
-    position: relative;
-}
-
-.marketing .content-2 {
-    position: absolute; /* Position the background text */
-    bottom: -245%; /* At the bottom. Use top:0 to append it to the top */
-    background-color: #ffe6ac;
-    text-align: left;
-    margin-right: 20%;
-    padding-top: 2px;
-    padding-bottom: 100px;
-}
-.marketing .btn-2 {
-    position: absolute;
-    bottom: -243%;
-    background-color: black;
-    color: #f1f1f1;
-    width: 40%;
-    font-size: x-large;
-    /* padding: 10px 20px; */
-    border: none;
-    cursor: pointer;
-    border-radius: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+  .marketing img {
+  width : 100%;
+  height : 300px;
+  position : relative;
   }
-
-.marketing .fa-solid {
-    position: absolute;
-    bottom: -240%; 
-    color:#f1f1f1;
-    padding-left: 35%;
+  .marketing .content-2 {
+  position : absolute;
+  bottom : -245%;
+  background-color : #ffe6ac;
+  text-align : left;
+  margin-right : 20%;
+  padding-top : 2px;
+  padding-bottom : 100px;
   }
-
-  .video-production img{
-    width: 100%;
-    height: 300px;
-    /* padding-top: 10px; */ 
-    position: relative;
-    bottom: -265px;
+  .marketing .btn-2 {
+  position : absolute;
+  bottom : -243%;
+  background-color : black;
+  color : #f1f1f1;
+  width : 40%;
+  font-size : x-large;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  padding-top : 20px;
+  padding-bottom : 20px;
   }
-    
-
-.video-production .content-3 {
-    position: absolute; /* Position the background text */
-    bottom: -330%; /* At the bottom. Use top:0 to append it to the top */
-    background-color: #ffe6ac;
-    text-align: left;
-    margin-right: 20%;
-    padding-top: 2px;
-    padding-bottom: 100px;
-}
-
-.video-production .btn-3 {
-    position: absolute;
-    bottom: -330%;
-    background-color: black;
-    color: #f1f1f1;
-    width: 40%;
-    font-size: x-large;
-    padding: 10px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+  .marketing .fa-solid {
+  position : absolute;
+  bottom : -240%;
+  color : #f1f1f1;
+  padding-left : 35%;
   }
-
+  .video-production img {
+  width : 100%;
+  height : 300px;
+  position : relative;
+  bottom : -265px;
+  }
+  .video-production .content-3 {
+  position : absolute;
+  bottom : -330%;
+  background-color : #ffe6ac;
+  text-align : left;
+  margin-right : 20%;
+  padding-top : 2px;
+  padding-bottom : 100px;
+  }
+  .video-production .btn-3 {
+  position : absolute;
+  bottom : -330%;
+  background-color : black;
+  color : #f1f1f1;
+  width : 40%;
+  font-size : x-large;
+  padding : 10px 30px;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  padding-top : 20px;
+  padding-bottom : 20px;
+  }
   .video-production .fa-solid {
-    position: absolute;
-    bottom: -326.5%; 
-    color:#f1f1f1;
-    padding-left: 30%;
+  position : absolute;
+  bottom : -326.5%;
+  color : #f1f1f1;
+  padding-left : 30%;
   }
-
-  .web-development img{
-    width: 100%;
-    height: 500px;
-    /* padding-top: 10px; */ 
-    position: relative;
-    bottom: -520px;
+  .web-development img {
+  width : 100%;
+  height : 500px;
+  position : relative;
+  bottom : -520px;
   }
-
   .web-development .content-4 {
-    position: absolute; /* Position the background text */
-    bottom: -435%; /* At the bottom. Use top:0 to append it to the top */
-    background-color: #ffe6ac;
-    text-align: left;
-    margin-right: 20%;
-    padding-top: 2px;
-    padding-bottom: 120px;
-}
-
-.web-development .btn-4 {
-    position: absolute;
-    bottom: -430%;
-    background-color: black;
-    color: #f1f1f1;
-    width: 40%;
-    font-size: x-large;
-    padding: 25px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+  position : absolute;
+  bottom : -435%;
+  background-color : #ffe6ac;
+  text-align : left;
+  margin-right : 20%;
+  padding-top : 2px;
+  padding-bottom : 120px;
   }
-
+  .web-development .btn-4 {
+  position : absolute;
+  bottom : -430%;
+  background-color : black;
+  color : #f1f1f1;
+  width : 40%;
+  font-size : x-large;
+  padding : 25px 30px;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  padding-top : 20px;
+  padding-bottom : 20px;
+  }
   .web-development .fa-solid {
-    position: absolute;
-    bottom: -426.5%; 
-    color:#f1f1f1;
-    padding-left: 30%;
+  position : absolute;
+  bottom : -426.5%;
+  color : #f1f1f1;
+  padding-left : 30%;
   }
-
-  .print img{
-    width: 100%;
-    height: 500px;
-    /* padding-top: 10px; */ 
-    position: relative;
-    bottom: -730px;
+  .print img {
+  width : 100%;
+  height : 500px;
+  position : relative;
+  bottom : -730px;
   }
-
   .print .content-5 {
-    position: absolute; /* Position the background text */
-    bottom: -535.5%; /* At the bottom. Use top:0 to append it to the top */
-    background-color: #ffe6ac;
-    text-align: left;
-    margin-right: 20%;
-    padding-top: 2px;
-    padding-bottom: 120px;
-}
-
-
-.print .btn-5 {
-    position: absolute;
-    bottom: -530%;
-    background-color: black;
-    color: #f1f1f1;
-    width: 40%;
-    font-size: x-large;
-    padding: 10px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+  position : absolute;
+  bottom : -535.5%;
+  background-color : #ffe6ac;
+  text-align : left;
+  margin-right : 20%;
+  padding-top : 2px;
+  padding-bottom : 120px;
   }
-
+  .print .btn-5 {
+  position : absolute;
+  bottom : -530%;
+  background-color : black;
+  color : #f1f1f1;
+  width : 40%;
+  font-size : x-large;
+  padding : 10px 30px;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  padding-top : 20px;
+  padding-bottom : 20px;
+  }
   .print .fa-solid {
-    position: absolute;
-    bottom: -526.5%; 
-    color:#f1f1f1;
-    padding-left: 30%;
+  position : absolute;
+  bottom : -526.5%;
+  color : #f1f1f1;
+  padding-left : 30%;
   }
-
-  .our-vision img{
-    width: 100%;
-    height: 400px;
-    /* padding-top: 10px; */ 
-    position: relative;
-    bottom: -930px;
+  .our-vision img {
+  width : 100%;
+  height : 400px;
+  position : relative;
+  bottom : -930px;
   }
-
   .our-vision .content-6 {
-    position: absolute; /* Position the background text */
-    bottom: -575%; /* At the bottom. Use top:0 to append it to the top */
-   /*  background: rgb(0, 0, 0); /* Fallback color */ 
-   /*  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
-    
-}
-.our-vision p {
-     text-align: left;
-     padding-right: 34%;
-     
-}
-
-.our-vision .btn-6 {
-    position: absolute;
-    bottom: -592%; 
-    background-color: black;
-    width: 40%;
-    font-size: larger;
-    padding: 25px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 1px;
-    color: #f1f1f1;
-    background: rgb(0, 0, 0); /* Fallback color */ 
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    box-shadow: #ffe6ac;
-    border: #ffe6ac;
-    
-    
-}
-
-.our-vision .fa-solid {
-    position: absolute;
-    bottom: -588%; 
-    color:#f1f1f1;
-    padding-left: 30%;
+  position : absolute;
+  bottom : -575%;
+  color : #f1f1f1;
+  width : 100%;
   }
-
+  .our-vision p {
+  text-align : left;
+  padding-right : 34%;
+  }
+  .our-vision .btn-6 {
+  position : absolute;
+  bottom : -592%;
+  background-color : black;
+  width : 40%;
+  font-size : larger;
+  padding : 25px 30px;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  color : #f1f1f1;
+  background : rgb(0, 0, 0);
+  background : rgb(0, 0, 0, 0.5);
+  border : #ffe6ac;
+  }
+  .our-vision .fa-solid {
+  position : absolute;
+  bottom : -588%;
+  color : #f1f1f1;
+  padding-left : 30%;
+  }
   .our-team .content-7 {
-    position: absolute;
-    bottom: -610%;
-    font-size: xx-large;
+  position : absolute;
+  bottom : -610%;
+  font-size : xx-large;
   }
-
-  .our-team img{
-    width: 100%;
-    height: 500px;
-    /* padding-top: 10px; */ 
-    position: relative;
-    bottom: -995px;
+  .our-team img {
+  width : 100%;
+  height : 500px;
+  position : relative;
+  bottom : -995px;
   }
-
   .our-team .content-8 {
-    position: absolute;
-    bottom: -700%;
-    background-color: #ffe6ac;
-    margin-right: 20%;
-    padding-top: 2px;
-    padding-bottom: 13px;
-}
- 
-.our-team p {
-  padding-top: 8px;
-}
-
-.our-team-2 img{
-  width: 100%;
-    height: 500px;
-    /* padding-top: 10px; */ 
-    position: relative;
-    bottom: -1170px;
-}
-
-.our-team-2 .content-9 {
-  position: absolute;
-  bottom: -800%;
-  background-color: #ffe6ac;
-  margin-right: 20%;
-  padding-top: 2px;
-  padding-bottom: 13px;
-}
-
-.box {
-  position: absolute;
-  bottom: -855%;
-  margin-right: 20%;
-  padding-top: 2px;
-  padding-bottom: 13px;
-} 
-
-
-h1 {
-  font-size: xx-large;
-}
-
-.box .btn-7 {
-  background-color: black;
-  color: #c78c06;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: large;
-  
-}
-
-.table {
-  position: absolute;
-  bottom: -905%;
-}
-
-table {
-  table-layout: auto;
-  width: 100%;
-}
-
-table, th, td {
-  border: 0.5px solid #222;
-  width: 80%;
-  padding: 25px;
+  position : absolute;
+  bottom : -700%;
+  background-color : #ffe6ac;
+  margin-right : 20%;
+  padding-top : 2px;
+  padding-bottom : 13px;
   }
-
-
-th {
-  background-color: #ffe6ac;
-  height: 50px;
-  
-}
-
-.maps {
-  position: absolute;
-  bottom: -985%;
-  width: 100%;
-}
-
-.footer {
-  position: absolute;
-  bottom: -1000%;
-  background-color: black;
-  color: #c78c06;
-  padding-top: 15px;
-  padding-right: 355px;
-  font-size: medium;
-}
-
-/* starts desktop mockup */ 
-
-@media screen and (min-width: 760px) {
-    body {
-      background-color: aquamarine;
-      
-      
-    }
-
-
-    nav {
-      display: flex;
-      flex-direction: row; 
-      
-      justify-content: space-evenly; 
-     
-    } 
-
-    nav li {
-      padding-left: 50px;
-    }
-    
-    .menu {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: none;
-      justify-content: space-evenly;
-    }
-
-    .about-us img {
-      float: left;
-      width: 500px;
-      height: 300px;
-      padding-left: 25px;
-    }
-    
-    .about-us {
-      padding-bottom: 60px;
-    }
-
-    h2 {
-      text-align: left;
-      padding-left: 60%;
-    }
-
-    p{ 
-      text-align: left;
-      padding-left: 58%;
-    }
-    
-   .wrapper-2 {
-     display: flex;
-     flex-wrap: wrap;
-     flex-direction: row;
-   } 
-
-    .our-services {
-     display: flex;
-     flex-basis: 50%;
-     flex-direction: row;
-     position: absolute;
-     padding-right: 100%;
-   }
-
-   .marketing {
-     display: flex;
-     flex-basis: 50%;
-     flex-direction: row;
-   }
-   
-   .video-production {
-    display: flex;
-    flex-basis: 33%;
-    flex-direction: row;
+  .our-team p {
+  padding-top : 8px;
   }
-   
-  .web-development{
-     display: flex;
-     flex-basis: 30%;
-     flex-direction: row;
-   }
-
+  .our-team-2 img {
+  width : 100%;
+  height : 500px;
+  position : relative;
+  bottom : 0;
+  }
+  .our-team-2 .content-9 {
+  position : absolute;
+  bottom : -800%;
+  background-color : #ffe6ac;
+  margin-right : 20%;
+  padding-top : 2px;
+  padding-bottom : 13px;
+  }
+  .box {
+  position : absolute;
+  bottom : -855%;
+  margin-right : 20%;
+  padding-top : 2px;
+  padding-bottom : 13px;
+  }
+  h1 {
+  font-size : xx-large;
+  }
+  .box .btn-7 {
+  background-color : black;
+  color : #c78c06;
+  padding-left : 15px;
+  padding-right : 15px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  font-size : large;
+  }
+  .table {
+  position : absolute;
+  bottom : -905%;
+  }
+  table {
+  table-layout : auto;
+  width : 100%;
+  }
+  table, th, td {
+  border : #222 solid 0.5px;
+  width : 80%;
+  padding : 25px;
+  }
+  th {
+  background-color : #ffe6ac;
+  height : 50px;
+  }
+  .maps {
+  position : absolute;
+  bottom : -985%;
+  width : 100%;
+  }
+  .footer {
+  position : absolute;
+  bottom : -1000%;
+  background-color : black;
+  color : #c78c06;
+  padding-top : 15px;
+  padding-right : 355px;
+  font-size : medium;
+  }
+  @media screen and (min-width: 760px) {
+  body {
+  background-color : aquamarine;
+  }
+  nav {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-evenly;
+  }
+  nav li {
+  padding-left : 50px;
+  }
+  .menu {
+  display : flex;
+  flex-direction : row;
+  justify-content : space-evenly;
+  }
+  .about-us img {
+  float : left;
+  width : 500px;
+  height : 300px;
+  padding-left : 25px;
+  }
+  .about-us {
+  padding-bottom : 60px;
+  }
+  h2 {
+  text-align : left;
+  padding-left : 60%;
+  }
+  p {
+  text-align : left;
+  padding-left : 58%;
+  }
+  .wrapper-2 {
+  display : flex;
+  flex-wrap : wrap;
+  flex-direction : row;
+  }
+  .our-services {
+  display : flex;
+  flex-basis : 50%;
+  flex-direction : row;
+  position : absolute;
+  padding-right : 100%;
+  }
+  .marketing {
+  display : flex;
+  flex-basis : 50%;
+  flex-direction : row;
+  }
+  .video-production {
+  display : flex;
+  flex-basis : 33%;
+  flex-direction : row;
+  }
+  .web-development {
+  display : flex;
+  flex-basis : 30%;
+  flex-direction : row;
+  }
   .print {
-     display: flex;
-     flex-basis: 30%;
-     flex-direction: row;
-   
+  display : flex;
+  flex-basis : 30%;
+  flex-direction : row;
   }
-  
   .our-team, .our-team-2 {
-    display: grid;
+  display : grid;
   }
   .content-8 {
-    grid-row-start: 1;
-    grid-row-end: 3;
+  grid-row-start : 1;
+  grid-row-end : 3;
   }
-  
-
   }
 
 
