@@ -1,3 +1,51 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -50,6 +98,15 @@ a {
   font: larger;
 }
 
+.wrapper-0 {
+  background-color: #c78c06;
+  border: black;
+  border-top: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+
+
+}
 
 
 nav {
@@ -60,8 +117,8 @@ nav {
     text-decoration-color: black; 
     padding-left: 50%;
     text-decoration-line: none;
-    color: #c78c06;
-    background-color: black;
+    background-color: #c78c06;
+    background-color: black; 
     padding-right: 43%;
    } 
 
@@ -493,7 +550,7 @@ h1 {
 
 .table {
   position: absolute;
-  bottom: -890%;
+  bottom: -905%;
 }
 
 table {
@@ -502,25 +559,27 @@ table {
 }
 
 table, th, td {
-  border: 0.5px solid;
+  border: 0.5px solid #222;
   width: 80%;
+  padding: 25px;
   }
 
 
 th {
   background-color: #ffe6ac;
-  height: 70px;
+  height: 50px;
+  
 }
 
 .maps {
   position: absolute;
-  bottom: -970%;
+  bottom: -985%;
   width: 100%;
 }
 
 .footer {
   position: absolute;
-  bottom: -990%;
+  bottom: -1000%;
   background-color: black;
   color: #c78c06;
   padding-top: 15px;
@@ -578,42 +637,53 @@ th {
       padding-left: 58%;
     }
     
-   
+   .wrapper-2 {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+   } 
+
     .our-services {
-      display: flex;
-      flex-wrap: wrap;
-      
-  }
-    
+     display: flex;
+     flex-basis: 50%;
+     flex-direction: row;
+     position: absolute;
+     padding-right: 100%;
+   }
 
-  /* .flex-container {
-    flex-direction: row;
+   .marketing {
+     display: flex;
+     flex-basis: 50%;
+     flex-direction: row;
+   }
+   
+   .video-production {
     display: flex;
-    flex-wrap: wrap;
-      
-  } */
-  
-
-    .our-services, .marketing, .btn-1, .btn-2, .content-1, .content-2{
-      flex-basis: 50%;
-}
-
-    .video-production, .web-development, .print {
-      flex-basis: calc(33%);
-}
-    .our-vision img {
-      width: 100%;
+    flex-basis: 33%;
+    flex-direction: row;
   }
-    .our-vision .content-6 {
-      position: absolute; /* Position the background text */
-    bottom: -445%; /* At the bottom. Use top:0 to append it to the top */
-   /*  background: rgb(0, 0, 0); /* Fallback color */ 
-   /*  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
-    
-    
-    }
+   
+  .web-development{
+     display: flex;
+     flex-basis: 30%;
+     flex-direction: row;
+   }
+
+  .print {
+     display: flex;
+     flex-basis: 30%;
+     flex-direction: row;
+   
+  }
+  
+  .our-team, .our-team-2 {
+    display: grid;
+  }
+  .content-8 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
 
   }
 
