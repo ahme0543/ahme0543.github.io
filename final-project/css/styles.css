@@ -476,6 +476,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   /* Desktop version */
 
   @media screen and (min-width: 760px) {
+
+  * {
+      margin : 0;
+      padding : 0;
+      max-width : 1200px;
+      font-family: 'Cormorant', serif;
+      font-family: 'Montserrat', sans-serif;
+  }
   
   nav {
   display : flex;
@@ -503,12 +511,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-bottom : 60px;
   }
   h2 {
-  text-align : left;
-  padding-left : 60%;
+  text-align : left; 
+  padding-left : 60%; 
+  
+
   }
   p {
-  text-align : left;
-  padding-left : 58%;
+  /* text-align : left; */
+  /* padding-left : 58%; */
+  /* padding-bottom: 20%; */
   }
   .wrapper-2 {
   display : flex;
@@ -520,7 +531,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   flex-basis : 50%;
   flex-direction : row;
   position : absolute;
-  padding-right : 100%;
+  /* padding-right : 50%; */
+  left: 100%;
+  }
+
+  .our-services img {
+  display : flex;
+  flex-basis : 50%;
+  flex-direction : row;
+  position : absolute;
+  /* padding-right : 50%; */
+  left: 100%;
   }
   .marketing {
   display : flex;
