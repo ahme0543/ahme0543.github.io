@@ -78,6 +78,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border-top : 2px;
   border-radius : 10px;
   cursor : pointer;
+  
   }
   nav {
   list-style : none;
@@ -379,7 +380,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-team .content-7 {
   position : absolute;
-  bottom : -610%;
+  bottom : -605%;
   font-size : xx-large;
   }
   .our-team img {
@@ -390,7 +391,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-team .content-8 {
   position : absolute;
-  bottom : -700%;
+  bottom : -750%;
   background-color : #ffe6ac;
   margin-right : 20%;
   padding-top : 2px;
@@ -412,6 +413,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   margin-right : 20%;
   padding-top : 2px;
   padding-bottom : 13px;
+  }
+
+  .wrapper-2 {
+    margin: 10px;
   }
 
   /* forms section */
@@ -476,6 +481,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   /* Desktop version */
 
   @media screen and (min-width: 760px) {
+    body {
+      position: relative;
+      left: 0;
+    }
 
   * {
       margin : 0;
@@ -516,75 +525,139 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
 
   }
-  p {
-  /* text-align : left; */
-  /* padding-left : 58%; */
-  /* padding-bottom: 20%; */
-  }
-  .wrapper-2 {
+  
+
+  .flex-container {
   display : flex;
   flex-wrap : wrap;
   flex-direction : row;
   }
+  
   .our-services {
-  display : flex;
+  /* display : flex;
   flex-basis : 50%;
-  flex-direction : row;
-  position : absolute;
+  flex-direction : row; */
+  position : relative; 
+  background-color: #ffe6ac;
+  padding-bottom: 40%;
   /* padding-right : 50%; */
-  left: 100%;
+  width: 50%;
+  
+  }
+  .our-services .content-1 {
+    position: relative; 
+    bottom: 0;
+    text-align: left;
+    top: 0;
+    margin-right: 40%;
+    
   }
 
-  .our-services img {
-  display : flex;
-  flex-basis : 50%;
-  flex-direction : row;
-  position : absolute;
-  /* padding-right : 50%; */
-  left: 100%;
+  .our-services p { 
+    text-align: left;
+    position: absolute;
+    bottom: -180%;
+    
   }
+
+  .our-services img{
+    /* width: 50%; */
+  /* display : flex; */
+  /* flex-basis : 50%;
+  flex-direction : row; */
+  position : relative;
+  padding-bottom: 0%;
+  background-color: none;
+  /* padding-right : 50%; */ 
+  
+  }
+
+  .our-services .btn-1 {
+    position : absolute;
+    bottom : 5%;
+    background-color : black;
+    color : #f1f1f1;
+    width : 50%;
+    font-size : large;
+    border : none;
+    cursor : pointer;
+    border-radius : 1px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    }
+    .our-services .fa-solid {
+    position : absolute;
+    bottom : 7%;
+    color : #f1f1f1;
+    padding-left : 40%;
+    }
+
   .marketing {
-  display : flex;
-  flex-basis : 50%;
-  flex-direction : row;
-  }
-  .video-production {
-  display : flex;
-  flex-basis : 33%;
-  flex-direction : row;
-  }
-  .web-development {
-  display : flex;
-  flex-basis : 30%;
-  flex-direction : row;
-  }
-  .print {
-  display : flex;
-  flex-basis : 30%;
-  flex-direction : row;
-  }
-  .our-team, .our-team-2 {
-  display : grid;
-  }
-  .content-8 {
-  grid-row-start : 1;
-  grid-row-end : 3;
-  }
+  position : relative; 
+  background-color: #ffe6ac;
+  padding-bottom: 40%;
+  margin-left : 05%; 
+  width: 50%;
   }
 
+  .marketing .content-2 {
+    position : absolute;
+    bottom : 34%;
+    text-align : left;
+    padding-bottom : 100px;
+    }
 
-  
-  
-  
+  .marketing p { 
+      text-align: left;
+      position: absolute;
+      bottom: -120%;
+      padding-left: 30px;
+      
+    }
+
+    .marketing .btn-2 {
+      position : absolute;
+      bottom : 5%;
+      background-color : black;
+      color : #f1f1f1;
+      width : 60%;
+      font-size : x-large;
+      border : none;
+      cursor : pointer;
+      border-radius : 1px;
+      padding-top : 20px;
+      padding-bottom : 20px;
+      margin-left: 140px;
+      }
+
+      .marketing .fa-solid {
+      position : absolute;
+      bottom: 8%;
+      color : #f1f1f1;
+      padding-left : 95%;
+      }
+
+   
   
 
+  .wrapper-3, .our-services img, .marketing img, .content-1, .content-2 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+     flex-basis: 100%; 
+    justify-content: space-evenly;
+    /* width: 50% */
+  }
+
+  .wrapper-4, .web-development img, .video-production img, .print, .content-3, .content-4, .content-5{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33.3%;
+    justify-content: space-evenly;
+  }
+  
   
     
-    
-    
-  
+}
 
 
-    
-    
-  
