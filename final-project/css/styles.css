@@ -934,11 +934,54 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 50px 50px;
   grid-template-areas: 
-  "block block"
-  "block2 block2";
+  "content-8 content-8"
+  "content-9 content-9";
   
   }
-    
+  /*.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+} */
+
+.box {
+  position: absolute;
+  bottom: -490px;
+}
+
+.box h1 {
+  position: relative;
+  bottom: 50px;
+}
+.box h2 {
+  position: relative;
+  bottom: 20px;
+  right: 240px;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.box, .maps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 50px;
+  grid-template-areas: 
+  "box maps"
+}
+
+.maps {
+  position: relative;
+  bottom: -490px;
+  margin-left: 200px; 
+  top: 450px;
+}
+.maps h2 {
+  position: relative;
+  bottom: 50px;
+  margin-left: 70px;
 }
 
 
+}
+  
