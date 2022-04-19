@@ -27,6 +27,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border-collapse : collapse;
   border-spacing : 0;
   }
+
+  
   /* google fonts link import */
   @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Montserrat:wght@100&display=swap');
 
@@ -489,7 +491,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 
-  /* Desktop version */
+  /* DESKTOP VERSION */
 
   @media screen and (min-width: 760px) {
     body {
@@ -926,6 +928,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding-left : 30%;
   }
   
+
 .grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
