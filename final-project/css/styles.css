@@ -880,7 +880,51 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: relative;
     bottom: -05px;
 }
+
+.our-vision img {
+  width : 100%; 
+  height : 400px;
+  position : relative;
+  bottom : -100px;
   
+  }
+  .our-vision .content-6 {
+  position : absolute;
+  bottom : 740px;
+  color : #f1f1f1;
+  width : 100%;
+  }
+  .our-vision h2{
+    position: absolute;
+    bottom: 110px;
+    margin-right: 300px;
+    padding-left: 10px;
+  }
+  .our-vision p {
+  text-align : left;
+  padding-right : 0%;
+  }
+  .our-vision .btn-6 {
+  position : absolute;
+  bottom : 600px;
+  background-color : black;
+  width : 40%;
+  font-size : larger;
+  padding : 25px 30px;
+  border : none;
+  cursor : pointer;
+  border-radius : 1px;
+  color : #f1f1f1;
+  background : rgb(0, 0, 0);
+  background : rgb(0, 0, 0, 0.5);
+  border : #ffe6ac;
+  }
+  .our-vision .fa-solid {
+  position : absolute;
+  bottom : 625px;
+  color : #f1f1f1;
+  padding-left : 30%;
+  }
   
     
 }
