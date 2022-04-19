@@ -890,7 +890,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-vision .content-6 {
   position : absolute;
-  bottom : 740px;
+  bottom : 150px;
   color : #f1f1f1;
   width : 100%;
   }
@@ -906,7 +906,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-vision .btn-6 {
   position : absolute;
-  bottom : 600px;
+  bottom : 60px;
   background-color : black;
   width : 40%;
   font-size : larger;
@@ -921,11 +921,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
   .our-vision .fa-solid {
   position : absolute;
-  bottom : 625px;
+  bottom : 82px;
   color : #f1f1f1;
   padding-left : 30%;
   }
   
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 50px;
+  grid-template-areas: 
+  "block block"
+  "block2 block2";
+  
+  }
     
 }
 
